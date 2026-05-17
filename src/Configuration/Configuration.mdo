@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e18ae38b-a1ac-46d8-b528-b6bf76f9371a">
+  <name>Услуги</name>
+  <synonym>
+    <key>en</key>
+    <value>Бытовые услуги</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2869fa00-9211-4dfc-b612-f29f43e0ffa8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="dd3f2abc-4c28-4b20-9019-ed1d4db7aab7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="115cde34-c115-4bbe-9439-15a342c4c3c8"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f6b38868-2cf7-46bf-a615-2fba8e2306d0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="34c69785-ecc1-48c0-b646-61f47058ae39"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a7daf0ae-e92d-48da-8018-cc6c7ac2c816"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e738a0d9-1ad0-4a17-af20-2e9104dbd605"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="dcb56e83-fefe-4684-9a95-4d98c4d80b5b">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.Зарплата</commonPictures>
+  <commonPictures>CommonPicture.Материалы</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonModules>CommonModule.НастройкиПриложенияВызовСервера</commonModules>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <reports>Report.Материалы</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+</mdclass:Configuration>

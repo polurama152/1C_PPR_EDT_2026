@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19427aec-2e48-4e58-a668-af0e1336d2a8">
+  <name>ОказаниеУслуг</name>
+  <synonym>
+    <key>en</key>
+    <value>Оказание услуг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Услуги</picture>
+  </picture>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>AccumulationRegister.ОстаткиМатериалов</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Склады</content>
+  <content>Document.ОказаниеУслуги</content>
+  <content>Report.Материалы</content>
+</mdclass:Subsystem>
